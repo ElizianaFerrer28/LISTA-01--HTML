@@ -1,0 +1,16 @@
+#dados_pessoais {
+  border-width: thin;
+  border-style: outset;
+  border-color: black;
+}
+
+#dados_profissionais {
+  border-width: thin;
+  border-style: outset;
+  border-color: black;
+}
+#currículo {
+  resize: none;
+  overflow: auto;
+  outline: none;
+}

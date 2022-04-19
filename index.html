@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FORMULÁRIO</title> 
+</head>
+  <link href="style.css" rel="stylesheet"
+  
+<body>
+  <h1>Formulário</h1> 
+
+
+   <div id="dados_pessoais">
+   <form> 
+    <h3>Dados Pessoais</h3>
+
+    Nome: <input type = "text" name = "Nome"> <br>
+    Data de Nascimento: <input type = "date" name = "data_de_nascimento"> <br>
+    Endereço: <input type = "text" name = "Endereço"> <br>
+    Bairro: <input type = "text" name = "Bairro">
+    Cidade: <input type = "text" name = "Cidade"> <br>
+    CEP: <input type = "number" name = "CEP">
+    Estado: 
+    <select name = "Estados"> 
+      <option selected value = "AC"> ACRE
+      <option selected value = "AL"> ALAGOAS
+      <option selected value = "AP"> AMAPÁ
+      <option selected value = "BA"> BAHIA
+      <option selected value = "CE"> CEARÁ
+      <option selected value = "DF"> DISTRITO FEDERAL
+      <option selected value = "ES"> ESPIRITO SANTO
+      <option selected value = "GO"> GOIÁS
+      <option selected value = "MA"> MARANHÃO
+      <option selected value = "MT"> MATO GROSSO
+      <option selected value = "MS"> MATO GROSSO DO SUL
+      <option selected value = "MG"> MINAS GERAIS
+      <option selected value = "PA"> PARÁ
+      <option selected value = "PB"> PARAÍBA
+      <option selected value = "PR"> PARANÁ
+      <option selected value = "PE"> PERNAMBUCO
+      <option selected value = "PI"> PIAUÍ
+      <option selected value = "RJ"> RIO DE JANEIRO
+      <option selected value = "RN"> RIO GRANDE DO NORTE
+      <option selected value = "RS"> RIO GRANDE DO SUL
+      <option selected value = "RO"> RONDÔNIA
+      <option selected value = "RR"> RORAIMA
+      <option selected value = "SC"> SANTA CATARINA
+      <option selected value = "SP"> SÃO PAULO
+      <option selected value = "SE"> SERGIPE
+      <option selected value = "TO"> TOCANTINS
+    </select>
+    <br> 
+  </form>
+  </div>
+
+  <br>
+  <br>
+
+  
+  <div id="dados_profissionais">
+  <form> 
+    <h2>Dados Profissionais</h2>
+    
+    <h3>Natureza do cargo</h3>
+    
+    <input type = "radio" name = "gerência" value = "gerência"> Gerência
+    <input type = "radio" name = "financeiro" value = "financeiro"> Financeiro
+    <input type = "radio" name = "recepção" value = "recepção"> Recepção
+    <input type = "radio" name = "administrativo" value = "administrativo"> Administrativo
+    <input type = "radio" name = "juridico" value = "juridico"> Jurídico
+    <br>
+    <br>
+
+  <h3>Área de Interesse</h3> 
+    <input type = "checkbox" name "area"> Computação
+    <input type = "checkbox" name "area"> Química
+    <input type = "checkbox" name "area"> Meio Ambiente
+    <input type = "checkbox" name "area"> Engenharia
+    <input type = "checkbox" name "area"> Matemática
+  <br>
+    
+
+
+
+  <div id="currículo">  
+  <h3>Mini currículo</h3>
+    <textarea name="currículo"spellcheck placeholder="Currículo Pessoal." cols=60 rows=4 wrap="on" ></textarea>
+  <br>
+  </div>
+    
+  <input type = "submit" value = "Enviar">
+  <input type = "reset" value = "Limpar">
+  <br>
+  
+</form>
+    
+</body>
+
+</html>
